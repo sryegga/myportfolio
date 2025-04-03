@@ -1,0 +1,403 @@
+import React from "react";
+import { BgCube } from "./BgCube";
+import { Component } from "./Component";
+import { Experience } from "./Experience";
+import GD5 from "./GD-5.png";
+import { HireMe } from "./HireMe";
+import { Resume } from "./Resume";
+import line1 from "./line-1.svg";
+import logo from "./logo.png";
+import rectangle10 from "./rectangle-10.png";
+import rectangle11 from "./rectangle-11.png";
+import rectangle12 from "./rectangle-12.png";
+import rectangle13 from "./rectangle-13.png";
+import rectangle14 from "./rectangle-14.png";
+import rectangle15 from "./rectangle-15.png";
+import rectangle16 from "./rectangle-16.png";
+import rectangle17 from "./rectangle-17.png";
+import rectangle18 from "./rectangle-18.png";
+import rectangle19 from "./rectangle-19.png";
+import rectangle28 from "./rectangle-28.png";
+import rectangle29 from "./rectangle-29.png";
+import rectangle30 from "./rectangle-30.png";
+import rectangle36 from "./rectangle-36.svg";
+import rectangle37 from "./rectangle-37.svg";
+import rectangle38 from "./rectangle-38.svg";
+import rectangle41 from "./rectangle-41.png";
+import rectangle49 from "./rectangle-49.png";
+import rectangle50 from "./rectangle-50.png";
+import rectangle51 from "./rectangle-51.png";
+import rectangle52 from "./rectangle-52.png";
+import rectangle53 from "./rectangle-53.png";
+import "./style.css";
+import vector1 from "./vector-1.svg";
+import vector2 from "./vector-2.svg";
+import vector3 from "./vector-3.svg";
+import vector4 from "./vector-4.svg";
+import vector5 from "./vector-5.svg";
+
+export const Desktop = () => {
+  return (
+    <div className="desktop">
+      <div className="overlap-wrapper">
+        <div className="overlap">
+          <div className="LANDING-PAGE">
+            <div className="overlap-2">
+              <div className="NAV-BAR">
+                <div className="logo">
+                  <img className="logo-2" alt="Logo" src={logo} />
+
+                  <div className="text-wrapper-3">Project</div>
+                </div>
+
+                <div className="home">
+                  <div className="text-wrapper-4">HOME</div>
+                </div>
+
+                <div className="about">
+                  <div className="text-wrapper-5">ABOUT</div>
+                </div>
+
+                <div className="what-can-i-do">
+                  <div className="text-wrapper-6">WHAT CAN I DO</div>
+                </div>
+
+                <div className="skills-tools">
+                  <div className="text-wrapper-7">SKILLS &amp; TOOLS</div>
+                </div>
+
+                <div className="contact">
+                  <div className="text-wrapper-7">CONTACT</div>
+                </div>
+              </div>
+
+              <div className="WELCOME-TO-MY-PAGE">
+                WELCOME TO
+                <br />
+                MY PAGE
+              </div>
+
+              <Component
+                className="component-6"
+                property1="frame-5"
+                rectangle="rectangle-4-2.svg"
+              />
+            </div>
+          </div>
+
+          <div className="PAGE">
+            <div className="overlap-3">
+              <div className="page" />
+
+              <div className="photo">
+                <div className="overlap-group-2">
+                  <img
+                    className="rectangle-2"
+                    alt="Rectangle"
+                    src={rectangle36}
+                  />
+
+                  <img
+                    className="rectangle-3"
+                    alt="Rectangle"
+                    src={rectangle37}
+                  />
+
+                  <img
+                    className="rectangle-4"
+                    alt="Rectangle"
+                    src={rectangle38}
+                  />
+
+                  <img
+                    className="rectangle-5"
+                    alt="Rectangle"
+                    src={rectangle41}
+                  />
+
+                  <div className="rectangle-6" />
+                </div>
+              </div>
+
+              <div className="profile">
+                <div className="text-wrapper-8">Welcome to my sites</div>
+
+                <div className="flexcontainer">
+                  <p className="text">
+                    <span className="span">
+                      Hi! I’m Ega
+                      <br />
+                    </span>
+                  </p>
+
+                  <p className="text">
+                    <span className="span">Content Creator</span>
+                  </p>
+                </div>
+
+                <p className="p">
+                  I am a graduate of Bachelor’s degree in communication
+                  specializing in Broadcasting. I have experience as a creative
+                  content creator with technical proficiency in developing
+                  digital content and deploying digital marketing.
+                </p>
+              </div>
+
+              <Experience
+                className="experience-instance"
+                divClassName="design-component-instance-node"
+                href="https://drive.google.com/file/d/13iyBYD8JcYSKgNPElD5x6c6MhpXhgpsF/view?usp=sharing"
+                property1="default"
+                text="Portfolio"
+              />
+              <Resume
+                className="resume-instance"
+                divClassName="resume-2"
+                href="https://drive.google.com/file/d/1C7xryZ10L-46HBMZpjagLjsOk6Q0JyNN/view?usp=sharing"
+                stateProp="inactive"
+                text="Resume"
+              />
+              <HireMe
+                className="hire-me-instance"
+                href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsCRjxJXhflGJXFZFSsFTHkQTpqWjzDzWHtFpWKgXLvBQjpqTGrGqgsgXFMXNXMsktmrTkzG"
+                stateProp="inactive"
+              />
+            </div>
+          </div>
+
+          <div className="overlap-group-wrapper">
+            <div className="overlap-4">
+              <div className="page-2" />
+
+              <div className="what-can-i-do-2">
+                <div className="text-wrapper-9">What Can I Do</div>
+
+                <div className="text-wrapper-10">MY SERVICES</div>
+
+                <img className="line" alt="Line" src={line1} />
+
+                <div className="overlap-5">
+                  <BgCube className="BG-cube-instance" />
+                  <div className="CONTENT-STRATEGY">
+                    CONTENT STRATEGY
+                    <br />
+                    CONTENT PLANNING
+                  </div>
+                </div>
+
+                <div className="overlap-group-3">
+                  <img className="GD" alt="Gd" src={GD5} />
+
+                  <BgCube className="BG-cube-instance" />
+                  <div className="COPY-WRITING-CONTENT">
+                    COPY WRITING
+                    <br />
+                    CONTENT WRITING
+                  </div>
+                </div>
+
+                <div className="overlap-6">
+                  <BgCube className="BG-cube-instance" />
+                  <div className="text-wrapper-11">MOTION GRAPHIC</div>
+                </div>
+
+                <div className="overlap-7">
+                  <BgCube className="BG-cube-instance" />
+                  <div className="text-wrapper-12">VIDEOGRAPHY</div>
+                </div>
+
+                <div className="overlap-8">
+                  <BgCube className="BG-cube-instance" />
+                  <div className="text-wrapper-13">VIDEO EDITING</div>
+                </div>
+
+                <div className="overlap-9">
+                  <BgCube className="BG-cube-instance" />
+                  <div className="text-wrapper-14">GRAPHIC DESIGN</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="div-wrapper">
+            <div className="overlap-10">
+              <div className="PAGE-2">
+                <div className="overlap-group-4">
+                  <div className="page-3" />
+
+                  <div className="group">
+                    <img
+                      className="rectangle-7"
+                      alt="Rectangle"
+                      src={rectangle49}
+                    />
+
+                    <img
+                      className="rectangle-8"
+                      alt="Rectangle"
+                      src={rectangle50}
+                    />
+
+                    <img
+                      className="rectangle-9"
+                      alt="Rectangle"
+                      src={rectangle51}
+                    />
+
+                    <img
+                      className="rectangle-10"
+                      alt="Rectangle"
+                      src={rectangle53}
+                    />
+
+                    <img
+                      className="rectangle-11"
+                      alt="Rectangle"
+                      src={rectangle52}
+                    />
+                  </div>
+                </div>
+
+                <div className="text-wrapper-15">MY EXPERIENCE WORK</div>
+              </div>
+
+              <div className="PAGE-3">
+                <div className="overlap-11">
+                  <div className="text-wrapper-16">For Design</div>
+
+                  <div className="text-wrapper-17">For UI Design</div>
+
+                  <div className="text-wrapper-18">For Editing Video</div>
+
+                  <p className="for-motion-graphic">
+                    For Motion Graphic &amp; Animation
+                  </p>
+
+                  <div className="for-project">
+                    For Project
+                    <br />
+                    Management
+                  </div>
+
+                  <img
+                    className="rectangle-12"
+                    alt="Rectangle"
+                    src={rectangle10}
+                  />
+
+                  <img
+                    className="rectangle-13"
+                    alt="Rectangle"
+                    src={rectangle11}
+                  />
+
+                  <img
+                    className="rectangle-14"
+                    alt="Rectangle"
+                    src={rectangle12}
+                  />
+
+                  <img
+                    className="rectangle-15"
+                    alt="Rectangle"
+                    src={rectangle13}
+                  />
+
+                  <img
+                    className="rectangle-16"
+                    alt="Rectangle"
+                    src={rectangle14}
+                  />
+
+                  <img
+                    className="rectangle-17"
+                    alt="Rectangle"
+                    src={rectangle15}
+                  />
+
+                  <img
+                    className="rectangle-18"
+                    alt="Rectangle"
+                    src={rectangle16}
+                  />
+
+                  <img
+                    className="rectangle-19"
+                    alt="Rectangle"
+                    src={rectangle17}
+                  />
+
+                  <img
+                    className="rectangle-20"
+                    alt="Rectangle"
+                    src={rectangle18}
+                  />
+
+                  <img
+                    className="rectangle-21"
+                    alt="Rectangle"
+                    src={rectangle19}
+                  />
+
+                  <img className="vector" alt="Vector" src={vector1} />
+
+                  <img className="vector-2" alt="Vector" src={vector2} />
+
+                  <img className="vector-3" alt="Vector" src={vector3} />
+
+                  <img className="vector-4" alt="Vector" src={vector4} />
+
+                  <img className="vector-5" alt="Vector" src={vector5} />
+                </div>
+
+                <div className="tools-skills">TOOLS &amp; SKILLS</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="devider" />
+
+          <div className="devider-2" />
+
+          <div className="devider-3" />
+
+          <div className="PAGE-4">
+            <div className="text-wrapper-19">Get In Touch</div>
+
+            <p className="text-wrapper-20">
+              For business inquiry please send me to
+            </p>
+
+            <div className="text-wrapper-21">msuryaegga@gmail.com</div>
+
+            <div className="text-wrapper-22">+6287871374453</div>
+
+            <a
+              href="https://www.linkedin.com/in/surya-egga"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img className="rectangle-22" alt="Rectangle" src={rectangle28} />
+            </a>
+
+            <a
+              href="https://www.instagram.com/sryegga/?next=%2F"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img className="rectangle-23" alt="Rectangle" src={rectangle29} />
+            </a>
+
+            <a
+              href="https://www.youtube.com/channel/UC9eHVQg9XU2dxT4x4-Dtasw"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img className="rectangle-24" alt="Rectangle" src={rectangle30} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
